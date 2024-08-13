@@ -1,10 +1,17 @@
+import ApplicationList from 'src/pages/ApplicationList.vue';
+import CourseList from 'src/pages/CourseList.vue';
+import StudentList from 'src/pages/StudentList.vue';
 import { RouteRecordRaw } from 'vue-router';
 
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/IndexPage.vue') }],
+    children: [
+      { path: 'students', component: StudentList },
+      { path: 'courses', component: CourseList },
+      { path: 'applications', component: ApplicationList },
+    ],
   },
 
   // Always leave this as last one,
