@@ -1,7 +1,10 @@
-# Quasar App (rhinobill-univesity-app)
+# Quasar App (rhinobill-university-app)
 
-A simple university application system
-
+A simple university application system. This project performs CRUD operations on the following entities
+- Student
+- Course
+- Application
+- 
 ## Install the dependencies
 ```bash
 yarn
