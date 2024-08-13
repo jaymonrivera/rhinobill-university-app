@@ -4,7 +4,7 @@ A simple university application system. This project performs CRUD operations on
 - Student
 - Course
 - Application
-- 
+  
 ## Install the dependencies
 ```bash
 yarn
